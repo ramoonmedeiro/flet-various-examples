@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flet-projects"
+version = "0.1.0"
+description = ""
+authors = ["Ramon Medeiro <r.medeiro10@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flet_projects"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flet = "^0.20.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
